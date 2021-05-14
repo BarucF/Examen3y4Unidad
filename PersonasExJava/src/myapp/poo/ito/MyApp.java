@@ -1,4 +1,4 @@
-package Clases.poo.ito;
+package myapp.poo.ito;
 import Clases.poo.ito.Chofer;
 public class MyApp {
 
@@ -9,8 +9,8 @@ public class MyApp {
 		c.agregarRuta("Orizaba");
 		c.agregarRuta("Cordoba");
 		c.agregarRuta("Veracruz");
+		System.out.println(c.toString());
 		c.eliminaRuta("Veracruz");
-		
 		System.out.println(c.toString());
 	}
 	
